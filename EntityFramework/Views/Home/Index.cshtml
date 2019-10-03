@@ -1,0 +1,15 @@
+﻿@model IEnumerable<EntityFramework.Models.Car>
+
+@foreach (var item in Model)
+{
+    <p>@item.Id | @item.Name | @item.CarModelId</p>
+}
+
+
+
+
+
+@{
+    ViewData["Title"] = "Home Page";
+    
+}
